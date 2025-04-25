@@ -44,7 +44,7 @@ const ForecastSheetBackground = ({
             positions={[-0.04, 0.95]}
           />
         </RoundedRect>
-        <Path path={borderPath} style="stroke" strokeWidth={20} color="white">
+        <Path path={borderPath} style="stroke" strokeWidth={2} color="white">
           <LinearGradient
             start={vec(width / 2, 0)}
             end={vec(width / 2, cornerRadius)}
